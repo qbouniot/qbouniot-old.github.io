@@ -1,7 +1,6 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+# Hello there ! 
 
-![Image of fast.ai logo](images/logo.png)
+I am a PhD student in the *Vision and Learning Lab for Scene Analysis* at CEA LIST and *Data Intelligence research group* at Université Jean-Monnet Saint-Étienne under the supervision of Amaury Habrard.
 
-## This is a title
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+My research topic focus on Few-shot Learning and Meta-Learning more specifically applied to Object Detection and Image Segmentation.
+As a Master student, I worked on Adversarial attacks and defenses applied to Person Re-Identification.

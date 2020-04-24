@@ -7,12 +7,27 @@
 # https://learnxinyminutes.com/docs/yaml/
 
 title: Quentin Bouniot
+author:
+  name: Quentin Bouniot
+  email: quentin[dot]bouniot[at]cea[dot]fr
 description: Welcome to my blog and personal page !
 github_username: qbouniot
+lang: "en"
+
+show_excerpts: false
+baseurl: "/"
 
 # Email and twitter are optional:
-email: quentin [dot] bouniot [at] cea [dot] fr
+email: quentin[dot]bouniot[at]cea[dot]fr
 twitter_username: QBouniot
+
+minima:
+  date_format: "%b %-d, %Y"
+
+  # generate social links in footer
+  social_links:
+    twitter: QBouniot
+    github:  qbouniot
 
 # Set this to true to get LaTeX math equation support
 use_math: True
@@ -21,12 +36,21 @@ use_math: True
 google_analytics:
 
 # Everything below here can be ignored, unless you want to change the theme entirely
-theme: minima
+# theme: minima
+skins: classic
+# remote_theme: niklasbuschmann/contrast@v2.8
 plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-octicons
   - jekyll-github-metadata
+  - jekyll-seo-tag
+  # - jekyll-remote-theme
+
+paginate: 5
+
+header_pages:
+  - publications.md
 
 titles_from_headings:
   enabled:     true
@@ -41,3 +65,5 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
+
+github: [metadata]

@@ -14,7 +14,7 @@ description: Welcome to my blog and personal page !
 github_username: qbouniot
 lang: "en"
 
-show_excerpts: false
+show_excerpts: true
 baseurl: "/"
 
 # Email and twitter are optional:
@@ -51,11 +51,12 @@ paginate: 5
 
 header_pages:
   - publications.md
+  - articles.md
 
 titles_from_headings:
-  enabled:     true
-  strip_title: true
-  collections: true
+  enabled:     false
+  strip_title: false
+  collections: false
 
 highlighter: rouge
 markdown: kramdown
@@ -67,3 +68,18 @@ kramdown:
   syntax_highlighter: rouge
 
 github: [metadata]
+
+# Liste des catégories
+collections:
+  category:
+    output: true # générer la page HTML
+    permalink: /:collection/:name/index.html
+    # exemple -> /category/informatique/index.html
+
+defaults:
+  - scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
+      # layout utilisé -> _layouts/category.html

@@ -1,0 +1,23 @@
+---
+layout: page
+title: Memory Aid
+category: tips
+description: "Memory aids for programming"
+---
+
+<h3>{{ page.description }}</h3>
+
+<br>
+
+<ul>
+    {% for post in site.categories[page.category] %}
+        <li>
+            <h3 class="post-title">
+                <a href="{{ post.url }}">
+                    <!-- <a class="post-link" href="{{ post.url | relative_url }}"></a> -->
+                    {{ post.title }}
+                </a>
+            </h3>
+        </li>
+    {% endfor %}
+</ul>

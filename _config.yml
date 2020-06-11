@@ -51,7 +51,6 @@ paginate: 5
 
 header_pages:
   - publications.md
-  - articles.md
 
 titles_from_headings:
   enabled:     false

@@ -8,7 +8,7 @@ category: tips
 
 ### Context : Verify if an element is in a list.
 
-**Naive solution** : `x in L` takes $O(|L|)$ operations, i.e. it's proportional to the length of L.
+**Naive solution** : `x in L` takes \\(\O(|L|)\\) operations, i.e. it's proportional to the length of L.
 
 If you have a lot of verifications to do and/or big lists, computation time can grow quickly.
 
@@ -41,5 +41,6 @@ except KeyError:
 
 # 256 ns ± 44.8 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
 ```
-_References:_
-https://wiki.python.org/moin/TimeComplexity
+
+## Documentation
+<https://wiki.python.org/moin/TimeComplexity>

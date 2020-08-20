@@ -286,12 +286,14 @@ a.sidebar-nav-item:focus {
 /* Blue */
 .theme-base-0d .sidebar {
   /* background-color: #6a9fb5; */
-  background-color: #00249c;
+  /* background-color: #00249c; */
+  background-color: #023e8a;
 }
 .theme-base-0d .content a,
 .theme-base-0d .related-posts li a:hover {
   /* color: #6a9fb5; */
-  color: #00249c;
+  /* color: #00249c; */
+  color: #0077b6;
 }
 
 /* Magenta */

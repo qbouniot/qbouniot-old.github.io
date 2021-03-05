@@ -8,7 +8,7 @@ category: tips
 
 ### Context : Verify if an element is in a list.
 
-**Naive solution** : `x in L` takes $O(\|L\|)$ operations, i.e. it's proportional to the length of L.
+**Naive solution** : `x in L` takes $O(\mid L \mid)$ operations, i.e. it's proportional to the length of L.
 
 If you have a lot of verifications to do and/or big lists, computation time can grow quickly.
 

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Access time
+title: Computation time
 category: tips
 ---
 
-## Access time in a list versus in a dict in Python
-
-### Context : Verify if an element is in a list.
+## Context : Verify if an element is in a list.
 
 **Naive solution** : `x in L` takes $O(\mid L \mid)$ operations, i.e. it's proportional to the length of L.
 
